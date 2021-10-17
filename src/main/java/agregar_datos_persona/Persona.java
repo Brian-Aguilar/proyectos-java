@@ -62,4 +62,10 @@ public class Persona {
             this.sexo = sexo;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Nombre: " + getNombre() + "\tApellido: " + getApellido() +
+                "\nEdad: " + getEdad() + "\tSexo: " + getSexo();
+    }
 }
